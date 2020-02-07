@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
 }
 
+ul li{
+  list-style: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content{
+  width:600px;
+  padding: 10px ;
+  margin: 0;
+
+}
+.tree-order-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 5px;
+
+}
+.tree-order-item2{
+  background-color: #cccccc30;
+}
+.tree-order-item  >div:nth-child(2) span{
+  margin-left: 5px;
+  font-size: 14px;
+  color: #1890ff;
+  cursor: pointer;
 }
